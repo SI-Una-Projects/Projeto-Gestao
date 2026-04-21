@@ -1,5 +1,7 @@
 package com.gestao.model;
 
-public class Perfil {
-
+public enum Perfil {
+    ADMIN,
+    GERENTE,
+    COLABORADOR
 }

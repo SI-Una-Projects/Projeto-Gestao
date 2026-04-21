@@ -1,5 +1,8 @@
 package com.gestao.model;
 
-public class StatusProjeto {
-
+public enum StatusProjeto {
+    PLANEJADO,
+    EM_ANDAMENTO,
+    CONCLUIDO,
+    CANCELADO
 }

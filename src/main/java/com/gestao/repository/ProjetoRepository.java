@@ -1,5 +1,7 @@
 package com.gestao.repository;
 
-public class ProjetoRepository {
+import com.gestao.model.Projeto;
+import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface ProjetoRepository extends JpaRepository<Projeto, Long> {
 }
